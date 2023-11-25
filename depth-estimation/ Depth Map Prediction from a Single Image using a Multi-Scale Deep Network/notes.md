@@ -4,7 +4,7 @@
 ## Task: Depth Estimation 
 ___
 
-### General Content
+### General content
 Depth prediction using two deep networks stacks: one makes a coarse global prediction on entire image, another refines this prediction locally. Also a scale-invariant error was used to measure depth relation rather than scale.
 
 ### Keypoints

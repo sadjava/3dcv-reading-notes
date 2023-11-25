@@ -6,17 +6,20 @@ ___
 ### General content
 Represent a 3D shape as a collection of parametric surface elements and, in contrast to methods generating voxel grids or point clouds, naturally infers a surface representation of the shape. Can be used for autoencoding shapes and single-view reconstruction.
 
-### Keypoints
-* AtlasNet is a union of learnable parametrizations. These learnable parametrizations transform a set of 2D squares to the surface.
-* Continuous representation. Can be sampled at any resolution.
-* MLP with ReLU activation for parametrization
-* Champfer loss
+### Approach
+![Approach](media/approach.png)
 
 ### Atlas
 ![Atlas](media/atlas.png)
 
 ### Applications
 ![Applications](media/applications.png)
+
+### Keypoints
+* AtlasNet is a union of learnable parametrizations. These learnable parametrizations transform a set of 2D squares to the surface.
+* Continuous representation. Can be sampled at any resolution.
+* MLP with ReLU activation for parametrization
+* Champfer loss
 
 ### Notes
 * AtlasNet decodes a 3D surface from an encoding of 3D shape. Encoding can come from many different representations (point cloud, single image etc.).

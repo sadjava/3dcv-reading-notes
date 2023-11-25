@@ -1,7 +1,7 @@
 # Title: Learning a Predictable and Generative Vector Representation for Objects
 ## Author: Rohit Girdhar (2016)
 ## Article: [arxiv](https://arxiv.org/pdf/1603.08637.pdf)
-## Task: Single image to 3D (voxels)
+## Task: Single image to 3D (voxels), embeddings of 3D shapes
 ___
 
 ### General content

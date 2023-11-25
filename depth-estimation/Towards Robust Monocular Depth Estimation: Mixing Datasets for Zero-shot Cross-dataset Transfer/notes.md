@@ -4,7 +4,7 @@
 ## Task: Depth Estimation 
 ___
 
-### General Content
+### General content
 Mixing data from various datasets greately impoves monocular depth estimation. To demonstrate generalization power authors use zero-shot cross-dataset transfer, i.e. evaluation on datasets that were not seen during training.
 
 ### Keypoints
